@@ -13,4 +13,5 @@ To automatically send a message on whatssapp after a period determined from the 
             pip install selenium
             pip install webdriver_manager
 
-I put notes on the code I hope it can help you to understand the code. If you encounter any problem or want clarification, you will find my email on my profile. I will be happy to message you.
+
+I put notes on the code. I hope it can help you to understand the code. If you encounter any problems or want clarification, you can write your question in the discussion section, and I will be happy to answer you.ز
