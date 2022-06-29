@@ -13,7 +13,7 @@ input('After scan the QR:')
 name = str(input('Enter the name of chat: \n'))
 massage = str(input('Enter the message u want: \n'))
 
-user = s.find_element(By.XPATH, '//span[@title = "{name_of_chat}"]'.format(name_of_chat="name"))
+user = s.find_element(By.XPATH, '//span[@title = "{name_of_chat}"]'.format(name_of_chat= name ))
 user.click()
 
 mass = s.find_element(By.XPATH, '//div[@class="_2vbn4"]')
