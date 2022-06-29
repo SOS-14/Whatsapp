@@ -7,7 +7,6 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.action_chains import ActionChains
 from datetime import datetime
 
-# ChromeDriverManager().install()
 s = webdriver.Chrome(ChromeDriverManager().install())
 s.get('https://web.whatsapp.com/')
 input('After scan the QR:')
@@ -53,12 +52,9 @@ def sos():
             # print('Difference between two datetimes in min:')
             print('Difference between two datetimes in min: {} '.format(diff_in_hours))
             #                   to send a message
-            # if count < 1000:
-            # for a in range(count):
             if diff_in_hours 'here you can put any sign u want == or > or < to match with the number of hours' , 'the number of hours you want':
                 ActionChains(s).move_to_element(mass).send_keys('PING').perform()
                 button = s.find_element(By.XPATH, '/html/body/div[1]/div/div/div[4]/div/footer/div[1]/div/span[2]/div/div[2]/div[2]/button/span')
                 button.click()
-            # count = count + 1
 
 sos()
