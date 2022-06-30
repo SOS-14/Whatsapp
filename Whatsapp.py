@@ -9,7 +9,7 @@ from datetime import datetime
 
 s = webdriver.Chrome(ChromeDriverManager().install())
 s.get('https://web.whatsapp.com/')
-input('After scan the QR:')
+input('Press enter after scan the QR:')
 name = str(input('Enter the name of chat: \n'))
 massage = str(input('Enter the message u want: \n'))
 
